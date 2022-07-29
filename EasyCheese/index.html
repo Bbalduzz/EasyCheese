@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="/EasyCheese/assets/css/style.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+   <link rel="icon" href="/EasyCheese/images/cheese.png" type="image/icon type">
+   <title>EasyCheese</title>
+ </head>
+ <body id="homepage">
+   <div class="circle"></div>
+   <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo">EASYCHEESE</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a onclick="alert('Page under construction')">About</a></li>
+         <li class="services">
+           <a href="#cards">Games</a>
+         </li>
+         <li><a href="https://discord.gg/6AEdmkXUbS" target="_blank">Contact</a></li>
+       </div>
+     </ul>
+   </nav>
+   <div class="container-home">
+     <div style="flex-grow: 8" class="motti"><em> <h1 class="motto"> PLAY <br/><span class="motto-colored">CHEAT</span></h1></em></div>
+     <div style="flex-grow: 4"><img src="/EasyCheese/images/cosocolorato+.png" alt="decorazione" class="right-image"></div>
+   </div>
+  <!-- <a href="#cards">
+    <div class="container-scroller">
+      <div class="scroller">
+        <b style="color: white; font-size: larger; margin-top: 50%;">↓</b>
+      </div>
+    </div>
+  </a> -->
+   <!-- cards -->
+   <section class="main" id="cards">
+    <a href="/EasyCheese/pages/valorant.html">
+      <div class="wrap wrap--1">
+        <div class="container container--1">
+          <p>Valorant</p>
+        </div>
+      </div>
+    </a>
+    <a href="/EasyCheese/pages/phasmo.html">
+      <div class="wrap wrap--2">
+        <div class="container container--2">
+          <p>Phasmophobia</p>
+        </div>
+      </div>
+    </a>
+    <a href="/EasyCheese/pages/fortnite.html">
+      <div class="wrap wrap--3">
+        <div class="container container--3">
+          <p>Fortnite</p>
+        </div>
+      </div>
+    </a>
+    <a href="/EasyCheese/pages/apex.html">
+      <div class="wrap wrap--4">
+        <div class="container container--4">
+          <p>Apex Legends</p>
+        </div>
+      </div>
+    </a>
+    <a href="/EasyCheese/pages/csgo.html">
+      <div class="wrap wrap--6">
+        <div class="container container--6">
+          <p>Csgo</p>
+        </div>
+      </div>
+    </a>
+    <a href="/EasyCheese/pages/ghub.html">
+      <div class="wrap wrap--5">
+        <div class="container container--5">
+          <p>Logitech GHUB</p>
+        </div>
+      </div>
+    </a>
+  <!-- end cards -->
+  </section>
+   </div>
+ </body>
+ <script src="/EasyCheese/assets/js/script.js"></script>
+ <script>
+  VANTA.NET({
+    el: "#homepage",
+    mouseControls: false,
+    touchControls: false,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor:  0x201f1f,
+  })
+  </script>
+</html>
